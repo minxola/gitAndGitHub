@@ -1,9 +1,15 @@
+html{
+    text-align: center;
+}
+
 p{
     color:darkgreen;
 }
 
 body{
     background-color:black;
+    width: 600px;
+    text-align: center;
 }
 
 h1{
