@@ -16,9 +16,14 @@ h1, h2, h3, h4, h5, h6{
     color:crimson;
 }
 
+hr{
+    margin: 10px;
+}
+
 header{
     color: blanchedalmond;
     font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0;
 }
 
 li{
