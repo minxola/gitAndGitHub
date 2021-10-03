@@ -1,5 +1,8 @@
-html{
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px dotted magenta;
 }
 
 p{
@@ -7,36 +10,49 @@ p{
 }
 
 body{
-    background-color:black;
-    text-align: center;
-    padding: 0 400px;
+    background-color:#18191A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
     color:crimson;
 }
 
-hr{
-    margin: 10px;
-}
-
 header{
     color: blanchedalmond;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
-li{
+nav{
+    padding: 10px 10px;
+}
+
+.logo img{
+    width: 100px;
+    margin: 0 20px;
+}
+
+main{
+    padding: 20px;
+}
+
+nav ul li{
     list-style: none;
-    display: inline;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-li > a{
+.menuItem {
     text-decoration: none;
     color: cornsilk;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
     border: 1px solid #fff;
     padding: 4px 4px;
     border-radius: 5px;
+}
+
+.menuItem:hover{
+    border: 1px solid crimson;
+    color: crimson;
 }
