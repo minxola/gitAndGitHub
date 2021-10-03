@@ -1,5 +1,10 @@
 h1, h2, h3, h4, h5, h6{
     color:crimson;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px dotted magenta;
 }
 
 .textSeparator{
@@ -31,3 +36,50 @@ footer p{
     color: darkorange;
 }
 
+body{
+    background-color:#18191A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:crimson;
+}
+
+header{
+    color: blanchedalmond;
+    padding: 20px 20px;
+}
+
+nav{
+    padding: 10px 10px;
+}
+
+.logo img{
+    width: 100px;
+    margin: 0 20px;
+}
+
+main{
+    padding: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: cornsilk;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #fff;
+    padding: 4px 4px;
+    border-radius: 5px;
+}
+
+.menuItem:hover{
+    border: 1px solid crimson;
+    color: crimson;
+}
