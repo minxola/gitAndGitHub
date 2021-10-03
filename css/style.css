@@ -1,42 +1,22 @@
-html{
+footer{
+    background-color: #3A3B3C;
+    height: 50px;
+    vertical-align: middle;
+    display: block;
     text-align: center;
+    position: relative;
 }
 
-p{
-    color:darkgreen;
+footer p{
+    position: relative;
+    display:block;
+    vertical-align: middle;
 }
 
-body{
-    background-color:black;
-    text-align: center;
-    padding: 0 400px;
+.heart{
+    color: crimson;
 }
 
-h1, h2, h3, h4, h5, h6{
-    color:crimson;
-}
-
-hr{
-    margin: 10px;
-}
-
-header{
-    color: blanchedalmond;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px 0;
-}
-
-li{
-    list-style: none;
-    display: inline;
-}
-
-li > a{
-    text-decoration: none;
-    color: cornsilk;
-    text-transform: uppercase;
-    font-weight: 800;
-    border: 1px solid #fff;
-    padding: 4px 4px;
-    border-radius: 5px;
+.rem{
+    color: darkorange;
 }
