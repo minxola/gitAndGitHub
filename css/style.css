@@ -1,5 +1,21 @@
+<<<<<<< HEAD
 
 
 h1, h2, h3, h4, h5, h6{
     color:crimson;
 }
+=======
+p{
+    color:darkgreen;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:crimson;
+}
+
+.textSeparator{
+    border: 0;
+    border-top: 1px solid crimson;
+    width: 30%;
+}
+>>>>>>> cuerpo
